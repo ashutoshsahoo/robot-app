@@ -7,45 +7,45 @@ $ mvn spring-boot:run
 
 - Check Robot battery charge :
 ```sh
-shell:> status
+robot:> status
 ```
 - Charge robot battery :
 ```sh
-shell:> charge
+robot:> charge
 ```
 
 - Ask Robot to walk 3.5 km :
 ```sh
-shell:> walk  --distance 3.5
+robot:> walk  --distance 3.5
 ```
 - Ask Robot to walk 2 km with 3kg object :
 ```sh
-shell:> walk  --distance 2 --weight 3
+robot:> walk  --distance 2 --weight 3
 ```
 
 or 
 
 ```sh
-shell:> walk 2 3
+robot:> walk 2 3
 ```
 
 - Ask Robot to walk with 12kg object :
 ```sh
-shell:> walk  --weight 12
+robot:> walk  --weight 12
 ```
 
 - Ask Robot to scan :
 ```sh
-shell:> scan
+robot:> scan
 ```
 - Exit:
 ```sh
-shell:> exit
+robot:> exit
 ```
 
 - Help:
 ```sh
-shell:> help
+robot:> help
 ```
 - Execute test cases :
 ```sh
