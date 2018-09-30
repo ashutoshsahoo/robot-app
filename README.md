@@ -23,6 +23,12 @@ shell:> walk  --distance 3.5
 shell:> walk  --distance 2 --weight 3
 ```
 
+or 
+
+```sh
+shell:> walk 2 3
+```
+
 - Ask Robot to walk with 12kg object :
 ```sh
 shell:> walk  --weight 12
@@ -41,7 +47,10 @@ shell:> exit
 ```sh
 shell:> help
 ```
-
+- Execute test cases :
+```sh
+$ mvn test
+```
 ## Reference
 
 - [Spring Shell](https://docs.spring.io/spring-shell/docs/current/reference/htmlsingle/)
