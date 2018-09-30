@@ -42,6 +42,6 @@ shell:> exit
 shell:> help
 ```
 
-##Reference
+## Reference
 
 - [Spring Shell](https://docs.spring.io/spring-shell/docs/current/reference/htmlsingle/)
